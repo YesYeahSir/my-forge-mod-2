@@ -12,9 +12,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+// This is the main mod class
 @Mod(MyMod.MOD_ID)
 public class MyMod
 {
+    // This is the Mod ID
     public static final String MOD_ID = "mymod";
     private static final Logger LOGGER = LogUtils.getLogger();
     public MyMod()
