@@ -23,7 +23,7 @@ public class MyMod
     public static final String MOD_ID = "mymod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    // Register Custom Items/Blocks
+    // Register
     public MyMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -46,6 +46,7 @@ public class MyMod
     {
         if (event.getTab() == CreativeModeTabs.INGREDIENTS)
         {
+            // Items
             event.accept(ModItems.Emeraldus);
             event.accept(ModItems.Fake_Book);
         }
